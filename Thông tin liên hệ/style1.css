@@ -9,12 +9,12 @@
 
 .info-item {
     margin-bottom: 10px;
-    margin-right: 10px;
+    margin-right: 9px;
 }
 
 .info-title {
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 5px;
+    /* margin-bottom: 2px; */
     font-size: x-large;
 }
 
