@@ -6,12 +6,19 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.info-item {
+    margin-bottom: 10px;
+}
+
 .info-title {
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 5px;
+  font-size: x-large;
 }
 
 .info-content {
     padding-left: 50px;
+    font-size: large;
 }
 
 .info-contact {
