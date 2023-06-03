@@ -46,7 +46,6 @@ p {
         background-color: #fff;
         max-width: 1024px;
         padding: 30px 10px 30px 10px;
-        margin: auto;
         display: grid;
         grid-template-columns: 50% 50%;
         font-family: 'Open Sans', sans-serif;
