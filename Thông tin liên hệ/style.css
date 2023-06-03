@@ -4,16 +4,18 @@
     margin: auto;
     padding: 0 10px 0 10px;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
 }
 
 .info-item {
     margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 .info-title {
-  font-family: 'Open Sans', sans-serif;
-  margin-bottom: 5px;
-  font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5px;
+    font-size: x-large;
 }
 
 .info-content {
@@ -35,7 +37,7 @@
 }
 
 p {
-  padding: 2px;
+    padding: 2px;
 }
 
 @media only screen and (min-width: 769px) {
@@ -49,19 +51,24 @@ p {
         grid-template-columns: 50% 50%;
         font-family: 'Open Sans', sans-serif;
     }
+
     .left {
         text-align: align;
     }
+
     .right {
         display: inline-block;
     }
+
     img {
         width: 100%;
     }
+
     .info-content {
         padding-left: 30px;
     }
+
     p {
-      padding: 2px;
+        padding: 2px;
     }
 }
