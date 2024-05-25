@@ -62,6 +62,6 @@ a{
         text-align: justify;
         min-height: calc(100vh - 312px);
         display: grid;
-        grid-template-columns: 35% 65% ;
+        grid-template-columns: 40% 60% ;
     }
 }
