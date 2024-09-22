@@ -20,18 +20,54 @@
     padding-left: 10px;
 }
 
-.title3 {
-    list-style-type: lower-alpha;
-    padding-left: 10px;
+ul.title3 {
+    counter-reset: list-counter;
+}
+
+ul.title3>li {
+    counter-increment: list-counter;
+}
+
+ul.title3>li::marker {
+    content: counter(list-counter, lower-alpha) ')  ';
+}
+
+ul.title3>li>ul {
+    padding-left: 0;
+    content: "-   ";
+}
+
+ul.title3>li>ul>li::marker {
+    content: "-   ";
+}
+
+ul.title3>li>ul {
+    padding-left: 0px;
+}
+
+ul.title3>li>ul>li>ul>li::marker {
+    content: "+   ";
+}
+
+ul.title3>li>ul>li>ul {
+    padding-left: 0;
+}
+
+ul.title3>li>ul>li>ul>ul {
+    padding-left: 0;
+}
+
+ul.title3>li>ul>li>div>ul>ul>li::marker {
+    content: "+  ";
 }
 
 .title4 {
     list-style-type: circle;
-    padding-left: 10px;
+    padding-left: 0;
 }
 
 .title5 {
-    padding-left: 10px
+    padding-left: 0;
 }
 
 .content {
@@ -89,18 +125,18 @@ body {
     }
 
     .title3 {
-        list-style: inside;
-        padding-left: 20px;
+        list-style: lower-alpha;
     }
 
     .title4 {
-        list-style: inside;
         padding-left: 20px;
     }
 
     .title5 {
         padding-left: 20px;
-        list-style: inside;
+    }
+    .title3::before {
+        font-weight: bold;
     }
 }
 
